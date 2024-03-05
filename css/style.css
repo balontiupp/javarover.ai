@@ -149,6 +149,7 @@ body {
 .program {
   display: inline-flex;
   height: 100px;
+  padding-top: 30px;
   width: 400px;
   margin: 80px auto -70px 170px;
 }
@@ -458,6 +459,7 @@ body {
 .works {
   display: absolute;
   width: auto;
+  padding-top: 80px;
   height: 600px;
   margin-top: 80px;
 }
@@ -546,6 +548,7 @@ body {
 /* About */
 .about {
   display: inline-flex;
+  padding-top: 90px;
   height: 100px;
   width: 400px;
   margin: 40px auto -70px 170px;
@@ -991,7 +994,7 @@ main p {
 
 /* Footer */
 footer {
-  height: 405px;
+  height: 305px;
   width: auto;
 }
 
