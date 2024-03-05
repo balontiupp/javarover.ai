@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javarover</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/javarover.png" type="image/x-icon" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <div class="navbar">
+      <a href="#" class="navbar-logo">java<span>rover</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#">Program</a>
+        <a href="#">Our product</a>
+        <a href="#">About us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="content">
+        <h1>We're<span> Javarover Coffee Co.</span></h1>
+        <p>New formula of Javaro Coffee Roastery!</p>
+        <a href="https://www.instagram.com/javarover/" class="cta"
+          >Getting Started</a
+        >
+      </div>
+    </section>
+
+    <!-- program -->
+    <section class="programm" id="programm">
+      <div class="program">
+        <div class="top">
+          <h1><img src="img/line.png" /> Program</h1>
+          <p>Our Program for client</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="package-row-1">
+          <div class="row-1">
+            <svg
+              width="25"
+              height="18"
+              viewBox="0 0 25 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.25 12H18.125C18.4375 12 18.75 11.7 18.75 11.4V5.1C18.75 4.8 18.4375 4.5 18.125 4.5H16.25C15.9375 4.5 15.625 4.8 15.625 5.1V11.4C15.625 11.7 15.9375 12 16.25 12ZM20.9375 12H22.8125C23.125 12 23.4375 11.7 23.4375 11.4V0.6C23.4375 0.3 23.125 0 22.8125 0H20.9375C20.625 0 20.3125 0.3 20.3125 0.6V11.4C20.3125 11.7 20.625 12 20.9375 12ZM6.875 12H8.75C9.0625 12 9.375 11.7 9.375 11.4V8.1C9.375 7.8 9.0625 7.5 8.75 7.5H6.875C6.5625 7.5 6.25 7.8 6.25 8.1V11.4C6.25 11.7 6.5625 12 6.875 12ZM11.5625 12H13.4375C13.75 12 14.0625 11.7 14.0625 11.4V2.1C14.0625 1.8 13.75 1.5 13.4375 1.5H11.5625C11.25 1.5 10.9375 1.8 10.9375 2.1V11.4C10.9375 11.7 11.25 12 11.5625 12ZM24.2188 15H3.125V0.75C3.125 0.335625 2.77539 0 2.34375 0H0.78125C0.349609 0 0 0.335625 0 0.75V16.5C0 17.3283 0.699707 18 1.5625 18H24.2188C24.6504 18 25 17.6644 25 17.25V15.75C25 15.3356 24.6504 15 24.2188 15Z"
+              />
+            </svg>
+            <h1>Bussines strategy</h1>
+            <h2>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem,
+              nulla?
+            </h2>
+          </div>
+        </div>
+        <div class="package-row-2">
+          <div class="row-2">
+            <a href="https://www.instagram.com/javarover/">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.5111 15.0095C19.6549 17.6365 20.6421 19.7894 20.1436 20.7521C19.7613 21.4826 17.3998 22.9098 15.6625 23.4565C14.2301 23.9064 12.3525 24.0999 10.8039 23.9499C8.95532 23.7709 7.08253 23.1082 5.47591 22.0632C4.12576 21.1827 3.82089 20.8198 3.82089 20.099C3.82089 18.6524 5.413 16.1174 8.13748 13.2243C9.68604 11.5843 11.8395 9.6588 12.0766 9.71202C12.5315 9.81361 16.1561 13.3453 17.5111 15.0095ZM8.73755 6.57222C7.3003 5.27083 5.92596 3.96459 4.55645 3.50499C3.82089 3.25826 3.76766 3.27278 3.16759 3.89686C1.75454 5.36758 0.578606 7.75267 0.249538 9.81845C-0.0117803 11.473 -0.0456549 11.9374 0.0462905 12.7454C0.317287 15.1885 0.883478 16.8769 2.00618 18.5944C2.46591 19.3007 2.59173 19.4314 2.45623 19.0733C2.25298 18.5412 2.44171 17.2591 2.91595 15.9771C3.60796 14.0903 5.5243 10.5151 8.73755 6.57222ZM23.8166 9.64429C22.9988 5.77397 20.5501 3.34051 20.2065 3.34051C19.8533 3.34051 19.0354 3.65497 18.4644 4.01297C17.3369 4.71447 16.4803 5.53207 15.3528 6.56738C17.4046 9.14598 20.2985 13.3114 21.3002 16.3544C21.6293 17.3559 21.7696 18.3428 21.6583 18.8847C21.576 19.2959 21.576 19.2959 21.726 19.1072C22.0212 18.7347 22.6891 17.5929 22.9552 17.0027C23.3133 16.219 23.6811 15.0579 23.8553 14.1629C24.0634 13.0744 24.044 10.7376 23.8166 9.64429ZM6.44859 1.69562C8.75691 1.57467 11.7572 3.3647 11.9798 3.40824C12.0137 3.41307 12.4831 3.20504 13.0251 2.93896C16.1174 1.43437 17.574 1.69078 18.2224 1.71981C15.1302 -0.181483 10.8329 -0.699138 6.90348 1.15378C5.7711 1.69078 5.74207 1.72949 6.44859 1.69562Z"
+                />
+              </svg>
+              <h1>Bussines strategy</h1>
+              <h2>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, tempore.
+              </h2></a
+            >
+          </div>
+        </div>
+
+        <div class="package-row-3">
+          <div class="row-3">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4043 1.61692C14.7993 1.22191 15.3351 1 15.8937 1C16.1703 1 16.4442 1.05448 16.6998 1.16033C16.9553 1.26618 17.1875 1.42133 17.3831 1.61692C17.5787 1.8125 17.7338 2.0447 17.8397 2.30025C17.9455 2.55579 18 2.82969 18 3.10629C18 3.38289 17.9455 3.65678 17.8397 3.91233C17.7338 4.16788 17.5787 4.40007 17.3831 4.59566L4.97166 17.0071L1 18L1.99291 14.0283L14.4043 1.61692Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1>Bussines strategy</h1>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt, reiciendis?
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row B Start -->
+      <div class="row-b">
+        <div class="row-4">
+          <svg
+            width="25"
+            height="18"
+            viewBox="0 0 25 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.25 12H18.125C18.4375 12 18.75 11.7 18.75 11.4V5.1C18.75 4.8 18.4375 4.5 18.125 4.5H16.25C15.9375 4.5 15.625 4.8 15.625 5.1V11.4C15.625 11.7 15.9375 12 16.25 12ZM20.9375 12H22.8125C23.125 12 23.4375 11.7 23.4375 11.4V0.6C23.4375 0.3 23.125 0 22.8125 0H20.9375C20.625 0 20.3125 0.3 20.3125 0.6V11.4C20.3125 11.7 20.625 12 20.9375 12ZM6.875 12H8.75C9.0625 12 9.375 11.7 9.375 11.4V8.1C9.375 7.8 9.0625 7.5 8.75 7.5H6.875C6.5625 7.5 6.25 7.8 6.25 8.1V11.4C6.25 11.7 6.5625 12 6.875 12ZM11.5625 12H13.4375C13.75 12 14.0625 11.7 14.0625 11.4V2.1C14.0625 1.8 13.75 1.5 13.4375 1.5H11.5625C11.25 1.5 10.9375 1.8 10.9375 2.1V11.4C10.9375 11.7 11.25 12 11.5625 12ZM24.2188 15H3.125V0.75C3.125 0.335625 2.77539 0 2.34375 0H0.78125C0.349609 0 0 0.335625 0 0.75V16.5C0 17.3283 0.699707 18 1.5625 18H24.2188C24.6504 18 25 17.6644 25 17.25V15.75C25 15.3356 24.6504 15 24.2188 15Z"
+            />
+          </svg>
+          <h1>Bussines strategy</h1>
+          <h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem,
+            nulla?
+          </h2>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="package-row-5">
+          <div class="row-5">
+            <a href="https://www.instagram.com/javarover/">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.5111 15.0095C19.6549 17.6365 20.6421 19.7894 20.1436 20.7521C19.7613 21.4826 17.3998 22.9098 15.6625 23.4565C14.2301 23.9064 12.3525 24.0999 10.8039 23.9499C8.95532 23.7709 7.08253 23.1082 5.47591 22.0632C4.12576 21.1827 3.82089 20.8198 3.82089 20.099C3.82089 18.6524 5.413 16.1174 8.13748 13.2243C9.68604 11.5843 11.8395 9.6588 12.0766 9.71202C12.5315 9.81361 16.1561 13.3453 17.5111 15.0095ZM8.73755 6.57222C7.3003 5.27083 5.92596 3.96459 4.55645 3.50499C3.82089 3.25826 3.76766 3.27278 3.16759 3.89686C1.75454 5.36758 0.578606 7.75267 0.249538 9.81845C-0.0117803 11.473 -0.0456549 11.9374 0.0462905 12.7454C0.317287 15.1885 0.883478 16.8769 2.00618 18.5944C2.46591 19.3007 2.59173 19.4314 2.45623 19.0733C2.25298 18.5412 2.44171 17.2591 2.91595 15.9771C3.60796 14.0903 5.5243 10.5151 8.73755 6.57222ZM23.8166 9.64429C22.9988 5.77397 20.5501 3.34051 20.2065 3.34051C19.8533 3.34051 19.0354 3.65497 18.4644 4.01297C17.3369 4.71447 16.4803 5.53207 15.3528 6.56738C17.4046 9.14598 20.2985 13.3114 21.3002 16.3544C21.6293 17.3559 21.7696 18.3428 21.6583 18.8847C21.576 19.2959 21.576 19.2959 21.726 19.1072C22.0212 18.7347 22.6891 17.5929 22.9552 17.0027C23.3133 16.219 23.6811 15.0579 23.8553 14.1629C24.0634 13.0744 24.044 10.7376 23.8166 9.64429ZM6.44859 1.69562C8.75691 1.57467 11.7572 3.3647 11.9798 3.40824C12.0137 3.41307 12.4831 3.20504 13.0251 2.93896C16.1174 1.43437 17.574 1.69078 18.2224 1.71981C15.1302 -0.181483 10.8329 -0.699138 6.90348 1.15378C5.7711 1.69078 5.74207 1.72949 6.44859 1.69562Z"
+                />
+              </svg>
+              <h1>Bussines strategy</h1>
+              <h2>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, tempore.
+              </h2></a
+            >
+          </div>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="package-row-6">
+          <div class="row-6">
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.4043 1.61692C14.7993 1.22191 15.3351 1 15.8937 1C16.1703 1 16.4442 1.05448 16.6998 1.16033C16.9553 1.26618 17.1875 1.42133 17.3831 1.61692C17.5787 1.8125 17.7338 2.0447 17.8397 2.30025C17.9455 2.55579 18 2.82969 18 3.10629C18 3.38289 17.9455 3.65678 17.8397 3.91233C17.7338 4.16788 17.5787 4.40007 17.3831 4.59566L4.97166 17.0071L1 18L1.99291 14.0283L14.4043 1.61692Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h1>Bussines strategy</h1>
+            <h2>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Incidunt, reiciendis?
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works-->
+    <section class="works">
+      <div class="works-top">
+        <div class="works-fill">
+          <h1><img src="img/line.png" /> Works</h1>
+          <p>Things We Have Made</p>
+        </div>
+        <div class="works-fill-2">
+          <div class="view">
+            <a href="#">View All</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- content -->
+      <div class="works-content">
+        <div class="works-d-1"></div>
+        <div class="works-d-2"></div>
+        <div class="works-d-3"></div>
+        <div class="works-d-4"></div>
+        <div class="works-d-5"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section>
+      <div class="about">
+        <div class="top">
+          <h1><img src="img/line.png" /> About</h1>
+          <p>Our Program for client</p>
+        </div>
+      </div>
+      <div class="container-grid">
+        <aside class="grid">
+          <a href="#">
+            <h1>Philosophy</h1>
+            <p>Trust paystt off</p>
+          </a>
+        </aside>
+        <nav>
+          <h1>Office</h1>
+          <p>Somewhere on earth</p>
+        </nav>
+        <main>
+          <h1>Team Work</h1>
+          <p>Commited Creative</p>
+        </main>
+      </div>
+
+      <div class="about-content">
+        <div class="a-content">
+          <h1>Who We Are</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            tempora molestias quos tenetur provident vero? Voluptatibus nostrum
+            ea vel fuga nobis nihil, reprehenderit libero adipisci.
+          </p>
+        </div>
+        <div class="b-content">
+          <svg
+            width="11"
+            height="105"
+            viewBox="0 0 4 109"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="margin-top: 1.8rem"
+          >
+            <path d="M2 0L2 108.5" stroke="#b6895b" stroke-width="4" />
+          </svg>
+          <div class="content-b">
+            <h1>Who We Are</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              quisquam atque, accusantium commodi provident facere?
+            </p>
+          </div>
+        </div>
+        <div class="c-content">
+          <svg
+            width="11"
+            height="105"
+            viewBox="0 0 4 109"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="margin-top: 1.8rem"
+          >
+            <path d="M2 0L2 108.5" stroke="#b6895b" stroke-width="4" />
+          </svg>
+          <div class="content-c">
+            <h1>Who We Are</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              quisquam atque, accusantium commodi provident facere?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="our-team">
+      <div class="ourt-top">
+        <div class="ourt-fill">
+          <h1><img src="img/line.png" /> Our Team</h1>
+          <p>Things We Have Made</p>
+        </div>
+      </div>
+      <div class="our-content">
+        <div class="our-d-1">
+          <svg
+            width="30"
+            height="14"
+            viewBox="0 0 30 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg"
+          >
+            <path
+              d="M20.776 13.168H29.176L23.8 0.303999H18.28L20.776 13.168ZM8.65825 0.303999H0.258249L5.63425 13.168H11.1543L8.65825 0.303999Z"
+              fill="#FFD700"
+            />
+          </svg>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam
+            earum placeat officia aut, quo similique perferendis distinctio
+            quis, labore omnis quia eum vel est qui amet voluptates, ipsam
+            voluptatibus!
+          </h1>
+          <div class="our-b-1">
+            <img src="/img/profile.png" alt="" />
+            <h1>
+              Yoga Pratama
+              <p>Co-Founder</p>
+            </h1>
+          </div>
+        </div>
+
+        <div class="our-d-2">
+          <svg
+            width="30"
+            height="14"
+            viewBox="0 0 30 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg"
+          >
+            <path
+              d="M20.776 13.168H29.176L23.8 0.303999H18.28L20.776 13.168ZM8.65825 0.303999H0.258249L5.63425 13.168H11.1543L8.65825 0.303999Z"
+              fill="#FFD700"
+            />
+          </svg>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam
+            earum placeat officia aut, quo similique perferendis distinctio
+            quis, labore omnis quia eum vel est qui amet voluptates, ipsam
+            voluptatibus!
+          </h1>
+          <div class="our-b-2">
+            <img src="/img/profile.png" alt="" />
+            <h1>
+              Yoga Pratama
+              <p>Co-Founder</p>
+            </h1>
+          </div>
+        </div>
+
+        <div class="our-d-3">
+          <svg
+            width="30"
+            height="14"
+            viewBox="0 0 30 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg"
+          >
+            <path
+              d="M20.776 13.168H29.176L23.8 0.303999H18.28L20.776 13.168ZM8.65825 0.303999H0.258249L5.63425 13.168H11.1543L8.65825 0.303999Z"
+              fill="#FFD700"
+            />
+          </svg>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam
+            earum placeat officia aut, quo similique perferendis distinctio
+            quis, labore omnis quia eum vel est qui amet voluptates, ipsam
+            voluptatibus!
+          </h1>
+          <div class="our-b-3">
+            <img src="/img/profile.png" alt="" />
+            <h1>
+              Yoga Pratama
+              <p>Co-Founder</p>
+            </h1>
+          </div>
+        </div>
+
+        <div class="our-d-4">
+          <svg
+            width="30"
+            height="14"
+            viewBox="0 0 30 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="svg"
+          >
+            <path
+              d="M20.776 13.168H29.176L23.8 0.303999H18.28L20.776 13.168ZM8.65825 0.303999H0.258249L5.63425 13.168H11.1543L8.65825 0.303999Z"
+              fill="#FFD700"
+            />
+          </svg>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ullam
+            earum placeat officia aut, quo similique perferendis distinctio
+            quis, labore omnis quia eum vel est qui amet voluptates, ipsam
+            voluptatibus!
+          </h1>
+          <div class="our-b-4">
+            <img src="/img/profile.png" alt="" />
+            <h1>
+              Yoga Pratama
+              <p>Co-Founder</p>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest-news-->
+    <section class="latest-news">
+      <div class="top-news">
+        <h1>
+          Latest News
+          <p>Check out some of our news</p>
+        </h1>
+      </div>
+
+      <div class="content-news">
+        <div class="content-top">
+          <div class="content-1"></div>
+          <h1>Dignissim elit sit justo blandit lacus tincidunt tellus.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            voluptatum voluptatem et impedit inventore maxime?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="content-top-2">
+          <div class="content-2"></div>
+          <h1>Dignissim elit sit justo blandit lacus tincidunt tellus.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            voluptatum voluptatem et impedit inventore maxime?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="content-top-3">
+          <div class="content-3"></div>
+          <h1>Dignissim elit sit justo blandit lacus tincidunt tellus.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            voluptatum voluptatem et impedit inventore maxime?
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-t">
+        <div class="footer-top">
+          <h1>java<span>rover</span>.</h1>
+          <p>We are Company</p>
+          <svg
+            width="69"
+            height="4"
+            viewBox="0 0 69 4"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="margin-left: 2.2rem"
+          >
+            <line y1="2" x2="69" y2="2" stroke="#b6895b" stroke-width="4" />
+          </svg>
+        </div>
+
+        <div class="footer-top-2">
+          <h1>CONTACT US</h1>
+
+          <div class="phone">
+            <img src="/img/phone.png" alt="" srcset="" />
+            <span>+62 812 4955 8588</span>
+          </div>
+
+          <div class="email">
+            <img src="/img/email.png" alt="" srcset="" />
+            <span>Yprrtm99@gmail.com</span>
+          </div>
+
+          <div class="maps">
+            <img src="/img/maps.png" alt="" srcset="" />
+            <span>West Jakarta, IDN</span>
+          </div>
+        </div>
+
+        <div class="footer-top-3">
+          <h1>OUR SERVICE</h1>
+
+          <div class="a-1">
+            <a href="#">Single Project</a>
+            <a href="#">Service 1</a>
+            <a href="#">Service 2</a>
+            <a href="#">Work</a>
+          </div>
+        </div>
+
+        <div class="footer-top-4">
+          <h1>ABOUT US</h1>
+
+          <div class="a-2">
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!--<hr class="hr" /> -->
+
+      <div class="footer-b">
+        <div class="footer-content">
+          <h1>
+            Copyright 2024 <br />
+            Yprrtm99
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+              nihil enim pariatur.
+            </p>
+          </h1>
+          <div class="h1-p">
+            <a href="">PRIVACY POLICY</a>
+            <span> </span>
+            <a href="">TERMS OF USE</a>
+          </div>
+
+          <div class="sosmed">
+            <a href="#"><img src="img/fb.png" alt="" srcset="" /></a>
+            <a href="#"><img src="img/twitter.png" alt="" srcset="" /></a>
+            <a href="#"><img src="img/ig.png" alt="" srcset="" /></a>
+            <a href="#"><img src="img/yt.png" alt="" srcset="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Js-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
